@@ -1,0 +1,33 @@
+{
+  "点击存储": {
+    "recognition": "OCR",
+    "expected": "存储",
+    "action": "Click",
+    "next": [
+      "向下滑动"
+    ]
+  },
+  "向下滑动": {
+    "action": "Swipe",
+    "begin": [
+      100,
+      500,
+      10,
+      10
+    ],
+    "end": [
+      100,
+      100,
+      10,
+      10
+    ],
+    "next": [
+      "点击游戏"
+    ]
+  },
+  "点击游戏": {
+    "recognition": "OCR",
+    "expected": "游戏",
+    "action": "Click"
+  }
+}
